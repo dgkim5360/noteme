@@ -1,7 +1,11 @@
 noteme
 ======
 
-A simple cli-timer with notifications for GNU/Linux Xorg and console
+A simple cli-timer with notifications for GNU/Linux Xorg and console ::
+
+  $ noteme -t180 "Tea Time!" -m "After 3 minutes, I shall need a cup of tea..." &
+
+.. image:: noteme.png
 
 Dependencies
 ------------
