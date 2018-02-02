@@ -45,7 +45,7 @@ Usage
 Example
 -------
 
-Running as a daemon (with & at the end) may be most practical usage. ::
+Running as a daemon (with & at the end) may be the most practical usage. ::
 
   $ noteme -t180 "Tea Time!" -m "After 3 minutes, I shall need a cup of tea..." &
   [1]4500
