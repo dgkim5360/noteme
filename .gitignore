@@ -1,4 +1,5 @@
 *.swp
+vgcore.*
 
 config.h
 *.o

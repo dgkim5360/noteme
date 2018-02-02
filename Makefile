@@ -1,6 +1,6 @@
 include config.mk
 
-SRC=noteme.c
+SRC=main.c noteme.c
 OBJ=$(SRC:.c=.o)
 
 all: noteme
@@ -12,10 +12,7 @@ options:
 	@echo "SRC      = $(SRC)"
 	@echo "OBJ      = $(OBJ)"
 
-$(OBJ): config.h config.mk
-
-config.h:
-	cp config.def.h $@
+$(OBJ): noteme.h
 
 noteme: $(OBJ)
 

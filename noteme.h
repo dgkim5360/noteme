@@ -7,3 +7,6 @@
 #define ANSI_COLOR_NORMAL "\x1b[94m"
 #define ANSI_COLOR_CRITICAL "\x1b[91m"
 #define ANSI_RESET "\x1b[0m"
+
+int noteme_console(const char *, const char *, const int, const int, int);
+int noteme_xorg(const char *, const char *, const int, const int, int);
